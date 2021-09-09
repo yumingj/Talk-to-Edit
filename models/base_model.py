@@ -627,11 +627,11 @@ class BaseModel():
                         saved_latent_code = start_latent_codes
                         saved_editing_latent_code = start_edited_latent_code
                         saved_score = start_score
-                        save_name = f'{prefix}_{sample_id:03d}_num_edits_1_class_{target_attr_label}_attr_idx_{self.target_attr_idx}.png'  # noqa
+                        # save_name = f'{prefix}_{sample_id:03d}_num_edits_1_class_{target_attr_label}_attr_idx_{self.target_attr_idx}.png'  # noqa
                         ### save_image(original_image, f'{save_dir}/{save_name}')
-                        if editing_logger:
-                            editing_logger.info(
-                                f'{save_name}: {saved_label}, {saved_score}')
+                        # if editing_logger:
+                        #     editing_logger.info(
+                        #         f'{save_name}: {saved_label}, {saved_score}')
                         exception_mode = 'max_edit_num_reached'
                     break
 

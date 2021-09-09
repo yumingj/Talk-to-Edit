@@ -94,11 +94,11 @@ We provide scripts for editing using our pretrained models.
    * To respond to the system's feedback, just talk as if you were talking to a real person. For example, if the system asks `"Is the length of the bangs just right?"` after one round of editing,  You can say things like `"Yes."` / `"No."` / `"Yes, and I also want her to smile more happily."`.
    * To end the conversation, just tell the system things like `"That's all"` / `"Nothing else, thank you."`
 
-1. By default, the above editing would be performed on the teaser image. You may change the image to be edited in two ways: 1) change `line 11: latent_code_index` to other values ranging from `0` to `99`; 2) set `line 10: latent_code_path` to `None`, so that an image would be randomly generated.
+1. By default, the above editing would be performed on the teaser image. You may change the image to be edited in two ways: 1) change `line 11: latent_code_index` to other values ranging from `0` to `99`; 2) set `line 10: latent_code_path` to `~`, so that an image would be randomly generated.
 
 1. If you want to try editing on real images, you may download the real images from this [link](https://drive.google.com/drive/folders/1BunrwvlwCBZJnb9QqeUp_uIXMxeXXJrY?usp=sharing) and put them under `./download/real_images`. You could also provide other real images at your choice. You need to change `line 12: img_path` in  `editing_with_dialog.yml` or `editing_wo_dialog.yml` according to the path to the real image and set `line 11: is_real_image` as `True`.
 
-1. You can switch the default image size to `128 x 128` by setting `line 3: img_res` to 128 in config files.
+1. You can switch the default image size to `128 x 128` by setting `line 3: img_res` to `128` in config files.
 
 
 ## Train the Semantic Field
