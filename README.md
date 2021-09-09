@@ -172,7 +172,7 @@ We provide codes for quantitative results shown in Table 1. Here we use `Bangs` 
 
 ## Qualitative Results
 
-![result](./assets/1024_results_annotated.png)
+![result](./assets/1024_results_updated.png)
 
 
 ## CelebA-Dialog Dataset
