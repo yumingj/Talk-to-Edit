@@ -1,0 +1,63 @@
+name: field_1024_young
+use_tb_logger: true
+set_CUDA_VISIBLE_DEVICES: ~
+gpu_ids: [3]
+
+attribute: Young
+
+model_type: FieldFunctionModel
+fix_layers: true
+replaced_layers: 10
+
+# dataset configs
+batch_size: 8
+num_workers: 8
+input_latent_dir: ./download/train_data/1024/Young
+editing_latent_code_path: ./download/editing_data/1024/Young.npz.npy
+num_attr: 5
+val_on_train_subset: true
+val_on_valset: true
+
+# training configs
+val_freq: 1
+print_freq: 100
+weight_decay: 0
+manual_seed: 2021
+num_epochs: 30
+lr: !!float 1e-4
+lr_decay: step
+gamma: 0.1
+step: 100
+
+# editing configs
+confidence_thresh: 0.8
+max_cls_num: 5
+max_trials_num: 100
+print_every: False
+
+# field_function configs
+num_layer: 8
+hidden_dim: 512
+leaky_relu_neg_slope: 0.2
+
+# loss configs
+# predictor loss
+edited_attribute_weight: 1.0
+attr_file: ./configs/attributes_5.json
+predictor_ckpt: ./download/pretrained_models/predictor_1024.pth.tar
+
+# arcface loss
+pretrained_arcface: ./download/pretrained_models/arcface_resnet18_110.pth
+arcface_weight: 10.0
+arcface_loss_type: l1
+# disciminator loss
+disc_weight: 1.0
+discriminator_ckpt: ./download/pretrained_models/StyleGAN2_FFHQ1024_discriminator.pth
+
+# stylegan configs
+img_res: 1024
+latent_dim: 512
+n_mlp: 8
+channel_multiplier: 2
+generator_ckpt: ./download/pretrained_models/stylegan2_1024.pth
+latent_space: w

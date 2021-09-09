@@ -1,0 +1,251 @@
+{
+    "attr_order_mapping": {
+        "Bangs": {
+            "0": [
+                "has",
+                "sentence"
+            ],
+            "1": [
+                "has"
+            ],
+            "2": [
+                "has"
+            ],
+            "3": [
+                "has"
+            ],
+            "4": [
+                "has",
+                "sentence"
+            ]
+        },
+        "No_Beard": {
+            "0": [
+                "has",
+                "sentence"
+            ],
+            "1": [
+                "has"
+            ],
+            "2": [
+                "has"
+            ],
+            "3": [
+                "has"
+            ],
+            "4": [
+                "has",
+                "sentence"
+            ]
+        },
+        "Eyeglasses": {
+            "0": [
+                "has",
+                "sentence"
+            ],
+            "1": [
+                "has"
+            ],
+            "2": [
+                "has"
+            ],
+            "3": [
+                "has"
+            ],
+            "4": [
+                "has",
+                "sentence"
+            ]
+        },
+        "Smiling": {
+            "0": [
+                "has",
+                "sentence"
+            ],
+            "1": [
+                "has"
+            ],
+            "2": [
+                "has"
+            ],
+            "3": [
+                "has"
+            ],
+            "4": [
+                "has",
+                "sentence"
+            ]
+        },
+        "Young": {
+            "0": [
+                "start"
+            ],
+            "1": [
+                "sentence"
+            ],
+            "2": [
+                "sentence"
+            ],
+            "3": [
+                "sentence"
+            ],
+            "4": [
+                "sentence"
+            ]
+        }
+    },
+    "has": {
+        "Bangs": {
+            "0": [
+                "no bangs"
+            ],
+            "1": [
+                "very short bangs",
+                "very short bangs which only covers a tiny portion of <his> forehead"
+            ],
+            "2": [
+                "short bangs",
+                "short bangs that covers a small portion of <his> forehead",
+                "short bangs that only covers a small portion of <his> forehead"
+            ],
+            "3": [
+                "medium bangs",
+                "medium bangs that covers half of <his> forehead",
+                "bangs of medium length that covers half of <his> forehead",
+                "bangs of medium length that leaves half of <his> forehead visible"
+            ],
+            "4": [
+                "long bangs",
+                "long bangs that almost covers all of <his> forehead",
+                "long bangs that almost covers This entire forehead"
+            ],
+            "5": [
+                "extremely long bangs",
+                "extremely long bangs that almost covers all of <his> forehead",
+                "extremely long bangs that almost covers This entire forehead"
+            ]
+        },
+        "Eyeglasses": {
+            "0": [
+                "no eyeglasses"
+            ],
+            "1": [
+                "rimless eyeglasses"
+            ],
+            "2": [
+                "eyeglasses with thin frame",
+                "thin frame eyeglasses"
+            ],
+            "3": [
+                "eyeglasses with thick frame",
+                "thick frame eyeglasses"
+            ],
+            "4": [
+                "sunglasses with thin frame",
+                "thin frame sunglasses"
+            ],
+            "5": [
+                "sunglasses with thick frame",
+                "thick frame sunglasses"
+            ]
+        },
+        "No_Beard": {
+            "0": [
+                "no beard",
+                "no beard at all"
+            ],
+            "1": [
+                "short pointed beard",
+                "stubble",
+                "a rough growth of stubble",
+                "stubble covering <his> cheeks and chin"
+            ],
+            "2": [
+                "short beard"
+            ],
+            "3": [
+                "beard of medium length"
+            ],
+            "4": [
+                "a big mustache on his face",
+                "a bushy beard"
+            ],
+            "5": [
+                "very long beard",
+                "full beard",
+                "very thick beard",
+                "a very bushy beard"
+            ]
+        },
+        "Smiling": {
+            "0": [
+                "no smile"
+            ],
+            "1": [
+                "a very mild smile"
+            ],
+            "2": [
+                "a mild smile"
+            ],
+            "3": [
+                "a beaming face",
+                "a smile with <his> teeth visible",
+                "a face that is beamed with happiness",
+                "a smile"
+            ],
+            "4": [
+                "a big smile",
+                "a big smile on <his> face",
+                "a big smile with <his> mouth slightly open",
+                "a big smile with <his> mouth slightly open and teeth visible"
+            ],
+            "5": [
+                "a deep rumbling laugh",
+                "a very big smile",
+                "a very big smile on <his> face",
+                "a very big smile with <his> mouth wide open",
+                "a very big smile with <his> mouth wide open and teeth visible"
+            ]
+        }
+    },
+    "start": {
+        "Young": {
+            "0": [
+                "This young kid",
+                "This young child",
+                "This little <boy>"
+            ],
+            "1": [
+                "This teenager",
+                "This young <man>",
+                "This young <boy>"
+            ],
+            "2": [
+                "This young adult",
+                "This <man> in <his> thirties"
+            ],
+            "3": [
+                "This <man> in <his> forties",
+                "This <man> in <his> middle age",
+                "This middle-aged <man>"
+            ],
+            "4": [
+                "This <man> in <his> sixties",
+                "This <man> in <his> fifties",
+                "This elderly <man>"
+            ],
+            "5": [
+                "This old <man>",
+                "This <man> in <his> eighties",
+                "This old <man> in <his> eighties",
+                "This <man> in <his> seventies",
+                "This old <man> in <his> seventies",
+                "This very old <man>"
+            ]
+        }
+    },
+    "has_prefix": [
+        "This <man> has ",
+        "<He> has "
+    ]
+}

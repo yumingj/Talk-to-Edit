@@ -1,0 +1,55 @@
+{
+    "start": {
+        "start_pureRequest": 0
+    },
+    "suggestion": {
+        "yes": 0,
+        "yes_pureRequest": 1,
+        "no": 2,
+        "no_pureRequest": 3,
+        "no_end": 4
+    },
+    "whether_enough": {
+        "yes": 0,
+        "yes_pureRequest": 1,
+        "yes_end": 2,
+        "no": 3,
+        "no_pureRequest": 4
+    },
+    "whats_next": {
+        "pureRequest": 0,
+        "end": 1
+    },
+    "attribute": {
+        "Bangs": 0,
+        "Eyeglasses": 1,
+        "No_Beard": 2,
+        "Smiling": 3,
+        "Young": 4
+    },
+    "score_change_direction": {
+        "negative": 0,
+        "positive": 1
+    },
+    "score_change_value": {
+        "1": 0,
+        "2": 1,
+        "3": 2,
+        "4": 3,
+        "5": 4
+    },
+    "target_score": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5
+    },
+    "request_mode": {
+        "change_definite": 0,
+        "change_indefinite": 1,
+        "target": 2,
+        "end": 3
+    }
+}

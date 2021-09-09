@@ -1,0 +1,152 @@
+{
+    "Bangs": {
+        "0": [
+            "<He> has no bangs at all.",
+            "<He> has no bangs at all and <his> forehead is visible.",
+            "<He> doesn't have any bangs.",
+            "<He> doesn't have any bangs and <his> forehead is visible.",
+            "<his> entire forehead is visible.",
+            "<his> entire forehead is visible without any bangs.",
+            "<He> shows <his> entire forehead without any bangs."
+        ],
+        "1": [
+            "<He> has very short bangs which only covers a tiny portion of <his> forehead."
+        ],
+        "2": [
+            "<He> has short bangs that covers a small portion of <his> forehead.",
+            "<He> has short bangs that only covers a small portion of <his> forehead."
+        ],
+        "3": [
+            "<He> has medium bangs that covers half of <his> forehead.",
+            "<He> has bangs of medium length that covers half of <his> forehead.",
+            "<He> has bangs of medium length that leaves half of <his> forehead visible."
+        ],
+        "4": [
+            "<He> has long bangs that almost covers all of <his> forehead.",
+            "<He> has long bangs that almost covers This entire forehead."
+        ],
+        "5": [
+            "<He> has extremely long bangs that almost covers all of <his> forehead.",
+            "<He> has extremely long bangs that almost covers This entire forehead."
+        ]
+    },
+    "Eyeglasses": {
+        "0": [
+            "<He> is not wearing any eyeglasses.",
+            "There is not any eyeglasses on <his> face."
+        ],
+        "1": [
+            "<He> is wearing rimless eyeglasses."
+        ],
+        "2": [
+            "<He> is wearing eyeglasses with thin frame.",
+            "<He> is wearing thin frame eyeglasses."
+        ],
+        "3": [
+            "<He> is wearing eyeglasses with thick frame.",
+            "<He> is wearing thick frame eyeglasses."
+        ],
+        "4": [
+            "<He> is wearing sunglasses with thin frame.",
+            "<He> is wearing thin frame sunglasses."
+        ],
+        "5": [
+            "<He> is wearing sunglasses with thick frame.",
+            "<He> is wearing thick frame sunglasses."
+        ]
+    },
+    "No_Beard": {
+        "0": [
+            "<He> doesn't have any beard.",
+            "<He> doesn't have any beard at all."
+        ],
+        "1": [
+            "<his> face is covered with short pointed beard.",
+            "<his> face is covered with his stubble.",
+            "<his> face has a rough growth of stubble.",
+            "<He> has a rough growth of stubble.",
+            "There should be stubble covering <his> cheeks and chin."
+        ],
+        "2": [
+            "<his> face is covered with short beard."
+        ],
+        "3": [
+            "<his> face is covered with beard of medium length.",
+            "<He> has beard of medium length."
+        ],
+        "4": [
+            "<He> has a big mustache on his face.",
+            "<his> has a bushy beard."
+        ],
+        "5": [
+            "<his> has very long beard.",
+            "<his> has full beard.",
+            "<his> has very thick beard.",
+            "<his> has a very bushy beard."
+        ]
+    },
+    "Smiling": {
+        "0": [
+            "<He> looks serious with no smile in <his> face."
+        ],
+        "1": [
+            "<He> smiles with corners of the mouth turned up.",
+            "<He> smiles with corners of <his> mouth turned up.",
+            "<He> turns up the corners of <his> mouth."
+        ],
+        "2": [
+            "This corners of <his> mouth curve up and we can see some teeth.",
+            "<He> smiles broadly and shows some teeth."
+        ],
+        "3": [
+            "The entire face of this <man> is beamed with happiness.",
+            "<He> has a beaming face.",
+            "<He> is smiling with <his> teeth visible.",
+            "<his> entire face is beamed with happiness."
+        ],
+        "4": [
+            "<He> has a big smile.",
+            "<He> has a big smile on <his> face.",
+            "<He> is smiling with <his> mouth slightly open.",
+            "<He> is smiling with <his> mouth slightly open and teeth visible."
+        ],
+        "5": [
+            "This <man> in the image is laughing happily.",
+            "<He> has a deep rumbling laugh.",
+            "<He> has a very big smile.",
+            "<He> has a very big smile on <his> face.",
+            "<He> is smiling with <his> mouth wide open.",
+            "<He> is smiling with <his> mouth wide open and teeth visible."
+        ]
+    },
+    "Young": {
+        "0": [
+            "This is a young kid.",
+            "This is a young child."
+        ],
+        "1": [
+            "<He> is a teenager.",
+            "<He> looks very young."
+        ],
+        "2": [
+            "<He> is a young adult.",
+            "<He> is in <his> thirties."
+        ],
+        "3": [
+            "<He> is in <his> forties.",
+            "<He> is in <his> middle age."
+        ],
+        "4": [
+            "<He> is in <his> sixties.",
+            "<He> is in <his> fifties.",
+            "<He> looks like an elderly."
+        ],
+        "5": [
+            "<He> is in <his> eighties.",
+            "This old <man> is in <his> eighties.",
+            "<He> is in <his> seventies.",
+            "This old <man> is in <his> seventies.",
+            "<He> looks very old."
+        ]
+    }
+}

@@ -1,0 +1,633 @@
+{
+    "start": [
+        [
+            "Hi.",
+            "Hello."
+        ]
+    ],
+    "pureRequest": {
+        "Bangs": {
+            "target": {
+                "0": [
+                    "No bangs.",
+                    "Remove all the bangs.",
+                    "Cut off all the bangs.",
+                    "I don't want the bangs at all.",
+                    "I don't want any bangs.",
+                    "I don't want any bangs visible.",
+                    "The bangs doesn't look good, let's remove it.",
+                    "The bangs covers the forehead, but I want the entire forehead visible."
+                ],
+                "1": [
+                    "Add very short bangs.",
+                    "I want very short bangs.",
+                    "Add very short bangs that leaves most of the forehead uncovered.",
+                    "I want very short bangs that leaves most of the forehead uncovered."
+                ],
+                "2": [
+                    "Add short bangs.",
+                    "Let's try short bangs.",
+                    "Add short bangs that covers only a small portion of the forehead.",
+                    "Let's try short bangs that covers only a small portion of the forehead."
+                ],
+                "3": [
+                    "Add medium bangs.",
+                    "Add bangs of medium length.",
+                    "Let's try bangs of medium length.",
+                    "Let's try bangs that leaves half of the forehead visible."
+                ],
+                "4": [
+                    "Add long bangs.",
+                    "Let's try long bangs.",
+                    "Add long bangs but don't cover the entire forehead.",
+                    "Let's try long bangs but don't cover the entire forehead."
+                ],
+                "5": [
+                    "Add extremely long bangs.",
+                    "Let's try extremely long bangs.",
+                    "Add extremely long bangs that covers the entire forehead.",
+                    "Let's try extremely long bangs that covers the entire forehead.",
+                    "Indeed, the bangs can be much longer. Let's cover the eyebrows."
+                ]
+            },
+            "change": {
+                "positive": {
+                    "definite": {
+                        "1": [
+                            "The bangs can be slightly longer.",
+                            "Make the bangs slightly longer."
+                        ],
+                        "2": [
+                            "The bangs can be somewhat longer, but not too much.",
+                            "Make the bangs somewhat longer, but not too much."
+                        ],
+                        "3": [
+                            "Make the bangs longer, but not too much."
+                        ],
+                        "4": [
+                            "The bangs can be longer.",
+                            "Make the bangs longer."
+                        ],
+                        "5": [
+                            "The bangs can be much longer.",
+                            "Make the bangs much longer."
+                        ]
+                    },
+                    "indefinite": [
+                        "Longer bangs.",
+                        "Add bangs.",
+                        "The bangs can be longer.",
+                        "Let's add some bangs.",
+                        "Maybe the bangs can be longer.",
+                        "Let's try adding longer bangs.",
+                        "What about adding longer bangs?",
+                        "Emm, I think the bangs can be longer.",
+                        "Let's make the bangs longer.",
+                        "Hi, I want to see how my friend looks like with some bangs."
+                    ]
+                },
+                "negative": {
+                    "definite": {
+                        "1": [
+                            "The bangs can be slightly shorter.",
+                            "Make the bangs slightly shorter."
+                        ],
+                        "2": [
+                            "The bangs can be somewhat shorter, but not too much.",
+                            "Make the bangs somewhat shorter, but not too much."
+                        ],
+                        "3": [
+                            "The bangs can be shorter.",
+                            "Make the bangs shorter."
+                        ],
+                        "4": [
+                            "The bangs can be much shorter.",
+                            "Make the bangs much shorter."
+                        ],
+                        "5": [
+                            "Remove all the bangs.",
+                            "I don't want the bangs at all.",
+                            "I don't want any bangs at all."
+                        ]
+                    },
+                    "indefinite": [
+                        "Less bangs",
+                        "Remove bangs.",
+                        "Remove the bangs.",
+                        "Let's cut off the bangs.",
+                        "Let's cut the bangs short.",
+                        "Let's cut the bangs off.",
+                        "I don't like the bangs, let's remove it.",
+                        "I don't like the bangs, let's cut it off.",
+                        "The bangs is too long, let's remove it.",
+                        "The bangs is too long, let's cut it off."
+                    ]
+                }
+            }
+        },
+        "Eyeglasses": {
+            "target": {
+                "0": [
+                    "No eyeglass",
+                    "No eyeglasses please.",
+                    "No eyeglasses.",
+                    "Remove eyeglasses.",
+                    "Remove the eyeglasses.",
+                    "I don't want to see the eyeglasses.",
+                    "I think there shouldn't be any eyeglasses."
+                ],
+                "1": [
+                    "The eyeglasses should be rimless.",
+                    "Let's try rimless eyeglasses."
+                ],
+                "2": [
+                    "The eyeglasses should have thin frame.",
+                    "Let's try thin frame eyeglasses."
+                ],
+                "3": [
+                    "The eyeglasses should have thick frame.",
+                    "Let's try thick frame eyeglasses."
+                ],
+                "4": [
+                    "Let's try thin frame sunglasses.",
+                    "It should be sunglasses with thin frame."
+                ],
+                "5": [
+                    "Let's try thick frame sunglasses.",
+                    "It should be sunglasses with thick frame."
+                ]
+            },
+            "change": {
+                "positive": {
+                    "definite": {
+                        "1": [
+                            "Make the eyeglasses slightly more obvious.",
+                            "The eyeglasses can be slightly more obvious."
+                        ],
+                        "2": [
+                            "Make the eyeglasses somewhat more obvious.",
+                            "The eyeglasses can be somewhat more obvious."
+                        ],
+                        "3": [
+                            "Make the eyeglasses more obvious.",
+                            "The eyeglasses can be more obvious."
+                        ],
+                        "4": [
+                            "Let's try eyeglasses with thicker frame and darker color."
+                        ],
+                        "5": [
+                            "Let's try thick frame sunglasses.",
+                            "It should be sunglasses with thick frame."
+                        ]
+                    },
+                    "indefinite": [
+                        "Add glasses",
+                        "Use eyeglasses",
+                        "Try eyeglasses.",
+                        "Add eyeglasses.",
+                        "Add eyeglasses to the face.",
+                        "Add eyeglasses please.",
+                        "Let's add eyeglasses.",
+                        "The eyeglasses can be more obvious.",
+                        "The eyeglasses are not obvious enough.",
+                        "I can't see the eyeglasses clearly, let's make them more obvious.",
+                        "The eyeglasses frame can be thicker.",
+                        "The glass color can be darker."
+                    ]
+                },
+                "negative": {
+                    "definite": {
+                        "1": [
+                            "Make the eyeglasses slightly less obvious.",
+                            "The eyeglasses can be slightly less obvious."
+                        ],
+                        "2": [
+                            "Make the eyeglasses somewhat less obvious.",
+                            "The eyeglasses can be somewhat less obvious."
+                        ],
+                        "3": [
+                            "Make the eyeglasses less obvious.",
+                            "The eyeglasses can be less obvious."
+                        ],
+                        "4": [
+                            "The eyeglasses are too obvious, let's make it much less obvious.",
+                            "The eyeglasses are too obvious, let's try make it much less obvious."
+                        ],
+                        "5": [
+                            "Remove eyeglasses.",
+                            "Remove the eyeglasses.",
+                            "I don't like the eyeglasses.",
+                            "I don't want to see the eyeglasses.",
+                            "There shouldn't be any eyeglasses."
+                        ]
+                    },
+                    "indefinite": [
+                        "Remove eyeglasses.",
+                        "No eyeglasses.",
+                        "The eyeglasses can be less obvious.",
+                        "The eyeglasses are too obvious.",
+                        "Let's make the eyeglasses more obvious.",
+                        "The eyeglasses frame can be thinner.",
+                        "The glass color can be lighter."
+                    ]
+                }
+            }
+        },
+        "No_Beard": {
+            "target": {
+                "0": [
+                    "Let's see what he looks like without his beard.",
+                    "Let's shave the beard off.",
+                    "No beard"
+                ],
+                "1": [
+                    "His face should be covered with short pointed beard.",
+                    "His face should be covered with the stubble.",
+                    "His face has a rough growth of stubble.",
+                    "There should be stubble covering his cheeks and chin."
+                ],
+                "2": [
+                    "His face should be covered with short beard.",
+                    "Let's add short beard to his face.",
+                    "Let's try short beard on his face."
+                ],
+                "3": [
+                    "His face should be covered with beard of medium length.",
+                    "Let's add medium-length beard to his face.",
+                    "Let's try medium-length beard on his face."
+                ],
+                "4": [
+                    "Let's try a big mustache on his face.",
+                    "He should have a bushy beard."
+                ],
+                "5": [
+                    "Let's add very long beard.",
+                    "Let's add a full beard.",
+                    "He should have very thick beard.",
+                    "He should have a very bushy beard."
+                ]
+            },
+            "change": {
+                "positive": {
+                    "definite": {
+                        "1": [
+                            "The beard can be slightly longer.",
+                            "Make the beard slightly longer.",
+                            "Slightly add more beard."
+                        ],
+                        "2": [
+                            "The beard can be somewhat longer, but not too much.",
+                            "Make the beard somewhat longer, but not too much."
+                        ],
+                        "3": [
+                            "The beard can be longer.",
+                            "Make the beard longer."
+                        ],
+                        "4": [
+                            "The beard can be much longer.",
+                            "Make the beard much longer."
+                        ],
+                        "5": [
+                            "Let's add very long beard.",
+                            "Let's add a full beard.",
+                            "He should have very thick beard",
+                            "He has a very bushy beard."
+                        ]
+                    },
+                    "indefinite": [
+                        "Add beard.",
+                        "Add some beard.",
+                        "Longer beard.",
+                        "Let's add more beard.",
+                        "I want some more beard on the face."
+                    ]
+                },
+                "negative": {
+                    "definite": {
+                        "1": [
+                            "The beard can be slightly shorter.",
+                            "Make the beard slightly shorter.",
+                            "Slightly remove some beard."
+                        ],
+                        "2": [
+                            "The beard can be somewhat shorter, but not too much.",
+                            "Make the beard somewhat shorter, but not too much."
+                        ],
+                        "3": [
+                            "The beard can be shorter.",
+                            "Make the beard shorter."
+                        ],
+                        "4": [
+                            "The beard can be much shorter.",
+                            "Make the beard much shorter."
+                        ],
+                        "5": [
+                            "Let's see what he looks like without his beard.",
+                            "Let's shave the beard off."
+                        ]
+                    },
+                    "indefinite": [
+                        "Less beard.",
+                        "Remove beard.",
+                        "Remove the beard.",
+                        "The beard should be gone.",
+                        "Let's try to remove the beard.",
+                        "I don't like the beard.",
+                        "Let's try shorter beard."
+                    ]
+                }
+            }
+        },
+        "Smiling": {
+            "target": {
+                "0": [
+                    "I think the person shouldn't be smiling.",
+                    "I don't like the smile.",
+                    "I don't want the smile.",
+                    "No smile.",
+                    "Remove the smile."
+                ],
+                "1": [
+                    "Turn up the corners of the mouth.",
+                    "The corners of the mouth should curve up."
+                ],
+                "2": [
+                    "The corners of the mouth should curve up and show some teeth.",
+                    "Smile broadly and show some teeth."
+                ],
+                "3": [
+                    "I want a beaming face.",
+                    "I want the face to be smiling with teeth visible.",
+                    "The entire face should be beamed with happiness."
+                ],
+                "4": [
+                    "It can be a big smile.",
+                    "I want a big smile on the face.",
+                    "I want the face to be smiling with the mouth slightly open.",
+                    "I want the face to be smiling with the mouth slightly open. We should be able to see the teeth.",
+                    "I want the face to be smiling with the mouth slightly open so that we can see the teeth."
+                ],
+                "5": [
+                    "I want a deep rumbling laugh.",
+                    "It can be laughing happily.",
+                    "It can be a very big smile.",
+                    "I want a very big smile on the face.",
+                    "I want the face to be smiling with the mouth wide open.",
+                    "I want the face to be smiling with the mouth wide open. We should be able to see the teeth."
+                ]
+            },
+            "change": {
+                "positive": {
+                    "definite": {
+                        "1": [
+                            "Smile slightly more.",
+                            "The smile can be slightly bigger.",
+                            "Make the smile slightly bigger.",
+                            "The person can look slightly happier.",
+                            "The person can smile slightly more happily."
+                        ],
+                        "2": [
+                            "The smile can be somewhat bigger, but not too much.",
+                            "Make the smile somewhat bigger, but not too much.",
+                            "The person can look somewhat happier.",
+                            "The person can smile somewhat more happily."
+                        ],
+                        "3": [
+                            "Smile more.",
+                            "The smile can be bigger.",
+                            "Make the smile bigger.",
+                            "The person can be happier.",
+                            "The person can smile more happily."
+                        ],
+                        "4": [
+                            "The smile can be much bigger.",
+                            "Make the smile much bigger.",
+                            "The person can be a lot happier.",
+                            "The person can smile a lot more happily."
+                        ],
+                        "5": [
+                            "I want a deep rumbling laugh.",
+                            "It can be laughing happily.",
+                            "It can be a very big smile.",
+                            "I want a very big smile on the face.",
+                            "I want the face to be smiling with the mouth wide open.",
+                            "I want the face to be smiling with the mouth wide open. We should be able to see the teeth.",
+                            "The person can smile very happily."
+                        ]
+                    },
+                    "indefinite": [
+                        "Look not so serious.",
+                        "Look less serious.",
+                        "Too serious, be happier.",
+                        "Add smile.",
+                        "Add some smiling please.",
+                        "The smile is not big enough.",
+                        "I want a bigger smile.",
+                        "I want the face to smile more.",
+                        "I want to change the pokerface face to a smiling face.",
+                        "The person can smile more happily.",
+                        "Can look happier."
+                    ]
+                },
+                "negative": {
+                    "definite": {
+                        "1": [
+                            "I want the smile to be slightly less obvious.",
+                            "The smile can be slightly less obvious.",
+                            "The person can smile slightly less happily."
+                        ],
+                        "2": [
+                            "I want the smile to be less obvious.",
+                            "The smile can be less obvious.",
+                            "The person can smile somewhat less happily."
+                        ],
+                        "3": [
+                            "I want the smile to be much less obvious.",
+                            "The smile can be much less obvious.",
+                            "The person can smile less happily."
+                        ],
+                        "4": [
+                            "I want to make the smile almost vanish.",
+                            "The person can smile a lot less happily."
+                        ],
+                        "5": [
+                            "I want the smile to vanish.",
+                            "I don't like the smile, let's remove it."
+                        ]
+                    },
+                    "indefinite": [
+                        "Not serious enough.",
+                        "More serious.",
+                        "No smiling.",
+                        "No smile.",
+                        "Remove smiling.",
+                        "Remove the smiling.",
+                        "Remove smile.",
+                        "Remove the smile.",
+                        "Smile less happily.",
+                        "Don't be so happy.",
+                        "The smile is too much.",
+                        "Can we have a gentler smile? This smile is too big.",
+                        "I want to change the smiling face to a pokerface."
+                    ]
+                }
+            }
+        },
+        "Young": {
+            "target": {
+                "0": [
+                    "Let's make the face a child one.",
+                    "Let's make the face very young."
+                ],
+                "1": [
+                    "Let's make the face a teenager one.",
+                    "Let's make the face relatively young.",
+                    "The person should be in the twenties."
+                ],
+                "2": [
+                    "Let's make the face a young one.",
+                    "It should be a young adult.",
+                    "The person should be in the thirties."
+                ],
+                "3": [
+                    "Let's make the face a middle age one.",
+                    "The person should be in the forties."
+                ],
+                "4": [
+                    "Let's make the face slightly older than middle age.",
+                    "Let's make the face the one of a senior.",
+                    "Let's make the face the one of an elderly.",
+                    "The person should be in the sixties.",
+                    "The person should be in the fifties."
+                ],
+                "5": [
+                    "Let's make the face a very old one.",
+                    "The person should be in the seventies.",
+                    "The person should be in the eighties."
+                ]
+            },
+            "change": {
+                "positive": {
+                    "definite": {
+                        "1": [
+                            "The face can be slightly older.",
+                            "Make the face slightly older."
+                        ],
+                        "2": [
+                            "Somewhat older",
+                            "The face can be somewhat older, just not too much.",
+                            "Make the face somewhat older, but not too much."
+                        ],
+                        "3": [
+                            "Make the face older, but not too much.",
+                            "Make the face older, but not too much."
+                        ],
+                        "4": [
+                            "The face can be older.",
+                            "Make the face older."
+                        ],
+                        "5": [
+                            "The face can be much older.",
+                            "Make the face much older.",
+                            "Let's make the face a very old one."
+                        ]
+                    },
+                    "indefinite": [
+                        "Older.",
+                        "Make it older.",
+                        "The face can be older.",
+                        "This face is too young, let's make it older.",
+                        "Let's make the face older.",
+                        "What about making the face look older?"
+                    ]
+                },
+                "negative": {
+                    "definite": {
+                        "1": [
+                            "The face can be slightly younger.",
+                            "Make the face slightly younger."
+                        ],
+                        "2": [
+                            "Somewhat younger.",
+                            "The face can be somewhat younger, but not too much.",
+                            "Make the face somewhat younger, but not too much."
+                        ],
+                        "3": [
+                            "The face can be younger.",
+                            "Make the face younger.",
+                            "Younger face."
+                        ],
+                        "4": [
+                            "Much younger.",
+                            "The face can be much younger.",
+                            "Make the face much younger."
+                        ],
+                        "5": [
+                            "Let's make the face a child one."
+                        ]
+                    },
+                    "indefinite": [
+                        "Younger face.",
+                        "Younger.",
+                        "Look younger",
+                        "Make it younger.",
+                        "Be younger.",
+                        "Less old.",
+                        "The face can be younger.",
+                        "This face is too old, let's make it younger.",
+                        "Let's make the face younger.",
+                        "What about making it younger?",
+                        "Can you make the person look younger?"
+                    ]
+                }
+            }
+        }
+    },
+    "yes": [
+        [
+            "Yes",
+            "Yep",
+            "Yeep",
+            "Yep sure",
+            "Yes sure",
+            "Sure",
+            "Ok"
+        ],
+        [
+            "."
+        ]
+    ],
+    "no": [
+        [
+            "No",
+            "Nope"
+        ],
+        [
+            "."
+        ]
+    ],
+    "end": [
+        [
+            "End.",
+            "Nothing.",
+            "Nothing else.",
+            "Nothing else for now.",
+            "It's all good now.",
+            "I don't want any further edits.",
+            "Actually it's all good now.",
+            "No need for further edits.",
+            "I don't need any further edits.",
+            "That's all.",
+            "This is it.",
+            "That is it.",
+            "That is all.",
+            "No."
+        ],
+        [
+            " Thanks!",
+            " Thank you!",
+            " Thanks a lot!",
+            ""
+        ]
+    ]
+}

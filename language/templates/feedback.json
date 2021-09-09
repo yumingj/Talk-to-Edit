@@ -1,0 +1,106 @@
+{
+    "replacement": {
+        "<ATTR_NAME>": {
+            "Bangs": "bangs",
+            "Eyeglasses": "glasses",
+            "No_Beard": "beard",
+            "Smiling": "smile",
+            "Young": "age"
+        },
+        "<ATTR_PRONOUN>": {
+            "Bangs": "them",
+            "Eyeglasses": "them",
+            "No_Beard": "it",
+            "Smiling": "it",
+            "Young": "it"
+        },
+        "<ATTR_BE>": {
+            "Bangs": "are",
+            "Eyeglasses": "are",
+            "No_Beard": "is",
+            "Smiling": "is",
+            "Young": "is"
+        },
+        "<ATTR_DEGREE>": {
+            "Bangs": "length",
+            "Eyeglasses": "style",
+            "No_Beard": "shape",
+            "Smiling": "degree",
+            "Young": "level"
+        }
+    },
+    "suggestion": [
+        "Do you want to try manipulating the <ATTR_NAME>?",
+        "Do you want to try manipulating the <ATTR_NAME> instead?",
+        "Do you want to try manipulating the <ATTR_NAME> as well?",
+        "Do you want to try editing the <ATTR_NAME>?",
+        "Do you want to try editing the <ATTR_NAME> instead?",
+        "Do you want to try editing the <ATTR_NAME> as well?",
+        "What about the <ATTR_NAME>? Do you want to play with <ATTR_PRONOUN>?",
+        "Do you want to play with the <ATTR_NAME>?",
+        "What about the <ATTR_NAME>? Do you want to edit <ATTR_PRONOUN>?",
+        "Do you want to edit the <ATTR_NAME>?",
+        "What about the <ATTR_NAME>? Do you want to manipulate <ATTR_PRONOUN>?",
+        "Do you want to manipulate the <ATTR_NAME>?"
+    ],
+    "whether_enough": {
+        "general": [
+            "Is this enough?",
+            "Is this good enough?",
+            "<ATTR_BE> the <ATTR_NAME> just right now?",
+            "<ATTR_BE> the <ATTR_NAME> what you want now?",
+            "<ATTR_BE> the <ATTR_NAME> of the person just right now?",
+            "<ATTR_BE> the <ATTR_NAME> of the person what you want now?",
+            "<ATTR_BE> the <ATTR_NAME> of proper degree now?",
+            "<ATTR_BE> the <ATTR_DEGREE> of the <ATTR_NAME> ok now?",
+            "<ATTR_BE> the <ATTR_DEGREE> of the <ATTR_NAME> okay now?"
+        ],
+        "Bangs": [
+            "Are the bangs in proper shape now?",
+            "Is the length of the bangs ok now?"
+        ],
+        "Eyeglasses": [],
+        "No_Beard": [],
+        "Smiling": [],
+        "Young": [
+            "Is the age of the person ok now?"
+        ]
+    },
+    "whats_next": [
+        "What's next?",
+        "What else do you want to play with?",
+        "What else do you want to manipulate?",
+        "What else do you want to edit?",
+        "What else do you want to change?",
+        "What else do you want to try?"
+    ],
+    "ok": [
+        [
+            "Okay",
+            "Ok",
+            "Well",
+            "Okie"
+        ],
+        [
+            " ",
+            ", "
+        ],
+        [
+            "done.",
+            "it's done.",
+            "bingo.",
+            "finished.",
+            "that's it.",
+            "this is it."
+        ]
+    ],
+    "max_edit_num_reached": [
+        "It is infeasible to edit this attribute. Let's try another attribute.",
+        "We cannot edit this attribute. Let's try something else.",
+        "Oops, it is hard to edit this attribute. Let's try something else.",
+        "Sorry, we are unable to edit this attribute. Perhaps we can try something else."
+    ],
+    "already_at_target_class": [
+        "This attribute is already at the degree that you want. Let's try a different attribute degree or another attribute."
+    ]
+}

@@ -1,0 +1,217 @@
+{
+    "synonyms": {
+        " can ": [
+            " can ",
+            " could ",
+            " should "
+        ],
+        "i'm": [
+            "i'm",
+            "i am"
+        ],
+        "it's": [
+            "it's",
+            "it is"
+        ],
+        "bangs": [
+            "bangs",
+            "fringe"
+        ],
+        "slightly": [
+            "slightly",
+            "a little bit",
+            "a tiny little bit",
+            "a little",
+            "a bit",
+            "only a little",
+            "just a little bit"
+        ],
+        "somewhat": [
+            "somewhat",
+            "relatively",
+            "to some extent",
+            "to some degree",
+            "moderately",
+            "partially",
+            "sort of",
+            "kind of",
+            "considerably"
+        ],
+        "very": [
+            "very",
+            "extremely"
+        ],
+        "entire": [
+            "entire",
+            "whole",
+            "full"
+        ],
+        "child": [
+            "child",
+            "schoolchild"
+        ],
+        "teenager": [
+            "teenager",
+            "teen"
+        ],
+        "beard": [
+            "beard",
+            "mustache"
+        ],
+        "i think": [
+            "i think",
+            "i think that",
+            "i feel",
+            "i feel that",
+            "i kind of think",
+            "i kind of think that",
+            "i kind of feel",
+            "i kind of feel that",
+            "i guess",
+            "i guess that"
+        ],
+        "i want": [
+            "i want",
+            "i kind of want",
+            "i would like"
+        ],
+        "let's try": [
+            "let's try",
+            "how about trying",
+            "what about trying"
+        ],
+        "but not too much": [
+            "but not too much",
+            "just not too much",
+            "just that not too much",
+            "just don't go too much"
+        ],
+        "only": [
+            "only",
+            "simply",
+            "just"
+        ],
+        "eyeglasses": [
+            "eyeglasses",
+            "glasses"
+        ],
+        "pokerface": [
+            "pokerface",
+            "poker face"
+        ],
+        "what's": [
+            "what's",
+            "what is"
+        ],
+        "how's": [
+            "how's",
+            "how is"
+        ],
+        "do you want to": [
+            "do you want to",
+            "would you like to",
+            "perhaps you would like to",
+            "perhaps you might want to",
+            "maybe you would like to",
+            "maybe you might want to"
+        ],
+        "want to": [
+            "want to",
+            "would like to"
+        ],
+        "manipulate": [
+            "manipulate",
+            "edit"
+        ],
+        "manipulating": [
+            "manipulating",
+            "editing",
+            "playing with"
+        ]
+    },
+    "prefix": [
+        "Actually,",
+        "To be honest,",
+        "Well,",
+        "Well",
+        "Emm",
+        "Emmm",
+        "Emmmm",
+        "Emm,",
+        "Emmm,",
+        "Emmmm,",
+        "Hi,",
+        "Hello,",
+        "Let me think about it.",
+        "I'm not too sure but",
+        "What about this?",
+        "Can we try this?",
+        "It looks okay now but",
+        "It looks better now, but still,",
+        "It looks nice, but still,",
+        "Let me have a look. Well,",
+        "Let me have a look. Well",
+        "Let me have a look. Emm,",
+        "Let me have a look. Emmm,",
+        "Let me have a look. Emmmm,",
+        "Let me have a look. Emm",
+        "Let me have a look. Emmm",
+        "Let me have a look. Emmmm",
+        "Let me take a look. Well,",
+        "Let me take a look. Well",
+        "Let me take a look. Emm,",
+        "Let me take a look. Emmm,",
+        "Let me take a look. Emmmm,",
+        "Let me take a look. Emm",
+        "Let me take a look. Emmm",
+        "Let me take a look. Emmmm"
+    ],
+    "postfix": [
+        "Thanks!",
+        "Thank you!",
+        "Is that possible?",
+        "and emmm... well let's try this first.",
+        "I guess it will probably get better this way.",
+        "I'm not too sure, let's see how it goes first.",
+        "It would be nicer in that way.",
+        "It would be nicer in that way, I think.",
+        "It would be nicer in that way, I guess.",
+        "I think it would be nicer in that way.",
+        "I guess it would be nicer in that way.",
+        "It would be nicer this way.",
+        "It would be nicer this way, I think.",
+        "It would be nicer this way, I guess.",
+        "I think it would be nicer this way.",
+        "I guess it would be nicer this way.",
+        "It might be nicer in that way.",
+        "It might be nicer in that way, I think.",
+        "It might be nicer in that way, I guess.",
+        "I think it might be nicer in that way.",
+        "I guess it might be nicer in that way.",
+        "It might be nicer this way.",
+        "It might be nicer this way, I think.",
+        "It might be nicer this way, I guess.",
+        "I think it might be nicer this way.",
+        "I guess it might be nicer this way.",
+        "It would look better in that way.",
+        "It would look better in that way, I think.",
+        "It would look better in that way, I guess.",
+        "I think it would look better in that way.",
+        "I guess it would look better in that way.",
+        "It would look better this way.",
+        "It would look better this way, I think.",
+        "It would look better this way, I guess.",
+        "I think it would look better this way.",
+        "I guess it would look better this way.",
+        "It might look better in that way.",
+        "It might look better in that way, I think.",
+        "It might look better in that way, I guess.",
+        "I think it might look better in that way.",
+        "I guess it might look better in that way.",
+        "It might look better this way.",
+        "It might look better this way, I think.",
+        "It might look better this way, I guess.",
+        "I think it might look better this way.",
+        "I guess it might look better this way."
+    ]
+}

@@ -1,0 +1,109 @@
+name: dialog_editing
+
+img_res: 1024 # 128
+
+# latent code
+latent_code_path: ./download/editing_data/teaser_latent_code.npz.npy
+latent_code_index: 38
+
+# inversion
+inversion:
+  is_real_image: False # False
+  img_path: ./download/real_images/annehathaway.png
+  crop_img: True
+  device: cuda
+  img_mse_weight: 1.0
+  step: 600
+  noise: 0.05
+  noise_ramp: 0.75
+  lr: 0.1
+  lr_gen: !!float 1e-4
+
+use_tb_logger: true
+set_CUDA_VISIBLE_DEVICES: ~
+gpu_ids: [3]
+
+attribute: Eyeglasses
+
+model_type: FieldFunctionModel
+fix_layers: true
+replaced_layers_128: 8
+replaced_layers_1024: 10
+
+manual_seed: 2021
+
+# editing configs
+confidence_thresh: 0
+max_cls_num: 5
+min_cls_num: 0
+max_trials_num: 100
+print_every: False
+transform_z_to_w: False
+
+# field_function configs
+num_layer: 8
+hidden_dim: 512
+leaky_relu_neg_slope: 0.2
+
+# predictor
+attr_file: ./configs/attributes_5.json
+baseline: classification
+use_sigmoid: True
+gt_remapping_file: ~
+predictor_ckpt_128: ./download/pretrained_models/predictor_128.pth.tar
+predictor_ckpt_1024: ./download/pretrained_models/predictor_1024.pth.tar
+
+# stylegan configs
+latent_dim: 512
+n_mlp: 8
+channel_multiplier_128: 1
+channel_multiplier_1024: 2
+generator_ckpt_128: ./download/pretrained_models/stylegan2_128.pt
+generator_ckpt_1024: ./download/pretrained_models/stylegan2_1024.pth
+latent_space: w
+
+# ---------- Dialog Editing -----------
+
+has_dialog: True
+device_name: gpu
+
+# pretrained field
+pretrained_field_128:
+  Bangs: ./download/pretrained_models/128_field/Bangs.pth
+  Eyeglasses: ./download/pretrained_models/128_field/Eyeglasses.pth
+  No_Beard: ./download/pretrained_models/128_field/No_Beard.pth
+  Smiling: ./download/pretrained_models/128_field/Smiling.pth
+  Young: ./download/pretrained_models/128_field/Young.pth
+pretrained_field_1024:
+  Bangs: ./download/pretrained_models/1024_field/Bangs.pth
+  Eyeglasses: ./download/pretrained_models/1024_field/Eyeglasses.pth
+  No_Beard: ./download/pretrained_models/1024_field/No_Beard.pth
+  Smiling: ./download/pretrained_models/1024_field/Smiling.pth
+  Young: ./download/pretrained_models/1024_field/Young.pth
+
+attr_to_idx:
+  Bangs: 0
+  Eyeglasses: 1
+  No_Beard: 2
+  Smiling: 3
+  Young: 4
+
+# language template files set up
+feedback_templates_file: ./language/templates/feedback.json
+metadata_file: ./language/templates/metadata_fsm.json
+pool_file: ./language/templates/pool.json
+system_mode_file: ./language/templates/system_mode.json
+input_vocab_file: ./language/templates/vocab.json
+# dialog setting
+postfix_prob: 0.3
+whether_enough_general_prob: 0.2
+allow_unknown: 1
+verbose: 0
+
+# pretrained language encoder
+pretrained_language_encoder: ./download/pretrained_models/language_encoder.pth.tar
+language_encoder:
+  word_embedding_dim: 300
+  text_embed_size: 1024
+  linear_hidden_size: 256
+  linear_dropout_rate: 0

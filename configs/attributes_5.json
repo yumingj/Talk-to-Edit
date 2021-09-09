@@ -1,0 +1,63 @@
+
+{
+    "attr_info":{
+        "6": {
+            "name": "Bangs",
+            "value":[0, 1, 2, 3, 4, 5],
+            "idx_scale": 1,
+            "idx_bias": 0
+        },
+        "16": {
+            "name": "Eyeglasses",
+            "value":[0, 1, 2, 3, 4, 5],
+            "idx_scale": 1,
+            "idx_bias": 0
+        },    
+        "25": {
+            "name": "No_Beard",
+            "value":[0, 1, 2, 3, 4, 5],
+            "idx_scale": -1,
+            "idx_bias": 5
+        },
+        "32": {
+            "name": "Smiling",
+            "value":[0, 1, 2, 3, 4, 5],
+            "idx_scale": 1,
+            "idx_bias": 0
+        },
+        "40": {
+            "name": "Young",
+            "value":[0, 1, 2, 3, 4, 5],
+            "idx_scale": -1,
+            "idx_bias": 5
+        }
+    },
+    "newIdx_to_attrIdx":{
+        "0": "6",
+        "1": "16",
+        "2": "25",
+        "3": "32",
+        "4": "40"
+    },
+    "newIdx_to_attrName":{
+        "0": "Bangs",
+        "1": "Eyeglasses",
+        "2": "No_Beard",
+        "3": "Smiling",
+        "4": "Young"
+    },   
+    "attrName_to_newIdx":{
+        "Bangs": "0",
+        "Eyeglasses": "1",
+        "No_Beard": "2",
+        "Smiling": "3",
+        "Young": "4"
+    },   
+    "attrIdx_to_newIdx":{
+        "6": 0,
+        "16": 1,
+        "25": 2,
+        "32": 3,
+        "40": 4
+    }    
+}

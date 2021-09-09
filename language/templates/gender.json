@@ -1,0 +1,52 @@
+{
+    "male": {
+        "<man>": [
+            "person",
+            "guy",
+            "gentleman"
+        ],
+        "<he>": [
+            "he",
+            "he",
+            "this person",
+            "this guy",
+            "this gentleman",
+            "this man"
+        ],
+        "<his>": [
+            "his",
+            "the"
+        ],
+        "<him>": [
+            "him"
+        ],
+        "<boy>": [
+            "boy"
+        ]
+    },
+    "female": {
+        "<man>": [
+            "person",
+            "lady",
+            "female"
+        ],
+        "<he>": [
+            "she",
+            "she",
+            "this lady",
+            "this person",
+            "this female",
+            "this woman"
+        ],
+        "<his>": [
+            "her",
+            "the"
+        ],
+        "<him>": [
+            "her"
+        ],
+        "<boy>": [
+            "girl"
+        ]
+    }
+}
