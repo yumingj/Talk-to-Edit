@@ -3,6 +3,6 @@ results/
 tb_logger/
 *.pyc
 .vscode/
-# download
-# download/*
+download
+download/*
 *.sh
