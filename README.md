@@ -8,7 +8,7 @@ This repository contains the implementation of the following paper:
 > Yuming Jiang<sup>∗</sup>, Ziqi Huang<sup>∗</sup>, Xingang Pan, Chen Change Loy, Ziwei Liu<br>
 > IEEE International Conference on Computer Vision (**ICCV**), 2021<br>
 
-[[Paper](to_be_confirmed)]
+[[Paper](https://arxiv.org/abs/2109.04425)]
 [[Project Page](https://www.mmlab-ntu.com/project/talkedit/)]
 [[CelebA-Dialog Dataset](https://drive.google.com/drive/folders/18nejI_hrwNzWyoF6SW8bL27EYnM4STAs?usp=sharing)]
 
@@ -188,6 +188,9 @@ Our **CelebA-Dialog Dataset** is available at [link](https://drive.google.com/dr
 
 ![result](./assets/dataset.png)
 
+The dataset can be employed as the training and test sets for the following computer vision tasks: fine-grained facial attribute recognition, fine-grained facial manipulation, text-based facial generation and manipulation, face image captioning, and broader natural language based facial recognition and manipulation tasks.
+
+
 ## Citation
 
    If you find our repo useful for your research, please consider citing our paper:
@@ -196,7 +199,7 @@ Our **CelebA-Dialog Dataset** is available at [link](https://drive.google.com/dr
    @InProceedings{jiang2021talkedit,
      author = {Jiang, Yuming and Huang, Ziqi and Pan, Xingang and Loy, Chen Change and Liu, Ziwei},
      title = {Talk-to-Edit: Fine-Grained Facial Editing via Dialog},
-     bbooktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
      year={2021}
    }
    ```
