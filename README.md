@@ -12,8 +12,9 @@ This repository contains the implementation of the following paper:
 [[Project Page](https://www.mmlab-ntu.com/project/talkedit/)]
 [[CelebA-Dialog Dataset](https://drive.google.com/drive/folders/18nejI_hrwNzWyoF6SW8bL27EYnM4STAs?usp=sharing)]
 
-<!-- You can try our colab demo here. Enjoy!
-<a href="https://colab.research.google.com/drive/14inhJjrNIj_SdhIA7NEtGS2kKOWXXSjb?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> -->
+You can try our colab demo here. Enjoy!
+1. Editing with dialog: <a href="https://colab.research.google.com/drive/14inhJjrNIj_SdhIA7NEtGS2kKOWXXSjb?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
+1. Editing without dialog: <a href="https://colab.research.google.com/drive/1mO5NmlPi4YV359cPkLZnOpG_kShQi_hN?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
 
 ## Overview
 ![overall_structure](./assets/teaser.png)
