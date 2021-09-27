@@ -11,6 +11,8 @@ This repository contains the implementation of the following paper:
 [[Paper](https://arxiv.org/abs/2109.04425)]
 [[Project Page](https://www.mmlab-ntu.com/project/talkedit/)]
 [[CelebA-Dialog Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html)]
+[[Poster](https://drive.google.com/file/d/1KaojezBNqDrkwcT0yOkvAgqW1grwUDed/view?usp=sharing)]
+[[Video](https://www.youtube.com/watch?v=ZKMkQhkMXPI)]
 
 You can try our colab demo here. Enjoy!
 1. Editing with dialog: <a href="https://colab.research.google.com/drive/14inhJjrNIj_SdhIA7NEtGS2kKOWXXSjb?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>
