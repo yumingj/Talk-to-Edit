@@ -182,7 +182,7 @@ We provide codes for quantitative results shown in Table 1. Here we use `Bangs` 
 
 ![result](./assets/celeba_dialog.png)
 
-Our **CelebA-Dialog Dataset** is available at [link](https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html).
+Our [**CelebA-Dialog Dataset**](https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html) is available for [Download](https://drive.google.com/drive/folders/18nejI_hrwNzWyoF6SW8bL27EYnM4STAs?usp=sharing).
 
 **CelebA-Dialog** is a large-scale visual-language face dataset with the following features:
 - Facial images are annotated with rich **fine-grained labels**, which classify one attribute into multiple degrees according to its semantic meaning.
