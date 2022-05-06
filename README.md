@@ -199,10 +199,11 @@ The dataset can be employed as the training and test sets for the following comp
    If you find our repo useful for your research, please consider citing our paper:
 
    ```bibtex
-   @InProceedings{jiang2021talkedit,
-     author = {Jiang, Yuming and Huang, Ziqi and Pan, Xingang and Loy, Chen Change and Liu, Ziwei},
-     title = {Talk-to-Edit: Fine-Grained Facial Editing via Dialog},
-     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision},
+   @inproceedings{jiang2021talk,
+     title={Talk-to-Edit: Fine-Grained Facial Editing via Dialog},
+     author={Jiang, Yuming and Huang, Ziqi and Pan, Xingang and Loy, Chen Change and Liu, Ziwei},
+     booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+     pages={13799--13808},
      year={2021}
    }
    ```
