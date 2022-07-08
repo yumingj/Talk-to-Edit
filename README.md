@@ -10,7 +10,7 @@ This repository contains the implementation of the following paper:
 
 [[Paper](https://arxiv.org/abs/2109.04425)]
 [[Project Page](https://www.mmlab-ntu.com/project/talkedit/)]
-[[CelebA-Dialog Dataset](https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html)]
+[[CelebA-Dialog Dataset](https://github.com/ziqihuangg/CelebA-Dialog)]
 [[Poster](https://drive.google.com/file/d/1KaojezBNqDrkwcT0yOkvAgqW1grwUDed/view?usp=sharing)]
 [[Video](https://www.youtube.com/watch?v=ZKMkQhkMXPI)]
 
@@ -107,7 +107,7 @@ We provide scripts for editing using our pretrained models.
 ## Train the Semantic Field
 
 
-1. To train the Semantic Field, a number of sampled latent codes should be prepared and then we use the attribute predictor to predict the facial attributes for their corresponding images. The attribute predictor is trained using fine-grained annotations in [CelebA-Dialog](https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html) dataset. Here, we provide the latent codes we used. You can download the train data from this [link](https://drive.google.com/drive/folders/1CYBpLIwts3ZVFiFAPb4TTnqYH3NBR63p?usp=sharing) and put them under `./download/train_data` as follows:
+1. To train the Semantic Field, a number of sampled latent codes should be prepared and then we use the attribute predictor to predict the facial attributes for their corresponding images. The attribute predictor is trained using fine-grained annotations in [CelebA-Dialog](https://github.com/ziqihuangg/CelebA-Dialog) dataset. Here, we provide the latent codes we used. You can download the train data from this [link](https://drive.google.com/drive/folders/1CYBpLIwts3ZVFiFAPb4TTnqYH3NBR63p?usp=sharing) and put them under `./download/train_data` as follows:
    ```
    ./download/train_data
    ├── 1024
@@ -182,7 +182,7 @@ We provide codes for quantitative results shown in Table 1. Here we use `Bangs` 
 
 ![result](./assets/celeba_dialog.png)
 
-Our [**CelebA-Dialog Dataset**](https://mmlab.ie.cuhk.edu.hk/projects/CelebA/CelebA_Dialog.html) is available for [Download](https://drive.google.com/drive/folders/18nejI_hrwNzWyoF6SW8bL27EYnM4STAs?usp=sharing).
+Our [**CelebA-Dialog Dataset**](https://github.com/ziqihuangg/CelebA-Dialog) is available for [Download](https://drive.google.com/drive/folders/18nejI_hrwNzWyoF6SW8bL27EYnM4STAs?usp=sharing).
 
 **CelebA-Dialog** is a large-scale visual-language face dataset with the following features:
 - Facial images are annotated with rich **fine-grained labels**, which classify one attribute into multiple degrees according to its semantic meaning.
