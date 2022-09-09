@@ -1,4 +1,4 @@
-# Talk-to-Edit (ICCV2021)
+# Talk-to-Edit (ICCV_2022)
 
 ![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
 ![pytorch 1.6.0](https://img.shields.io/badge/pytorch-1.6.0-green.svg?style=plastic)
