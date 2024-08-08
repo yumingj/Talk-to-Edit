@@ -206,6 +206,14 @@ The dataset can be employed as the training and test sets for the following comp
      pages={13799--13808},
      year={2021}
    }
+
+   @article{jiang2023talk,
+     title={Talk-to-edit: Fine-grained 2d and 3d facial editing via dialog},
+     author={Jiang, Yuming and Huang, Ziqi and Wu, Tianxing and Pan, Xingang and Loy, Chen Change and Liu, Ziwei},
+     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+     year={2023},
+     publisher={IEEE}
+   }
    ```
 
 ## Contact
